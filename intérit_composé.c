@@ -1,5 +1,4 @@
-#include <stdio.h>  // Inclusion de la bibliothèque standard d'entrée/sortie
-
+#include <stdio.h>  
 int main() {
     
     float x,Un,U,y,p,n,R;
@@ -30,7 +29,6 @@ int main() {
             R = Un - T;
             printf("Vous avez une recette de :%f $\n\n\n",R);
         }
-        //printf("la valeur de votre invistissement pour la %d année est de %f\n", i, Un);
 
     }
 return 0;
